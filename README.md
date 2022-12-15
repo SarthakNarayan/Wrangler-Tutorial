@@ -70,3 +70,11 @@ Now once the application starts press `l` key in the terminal.
 ```
 npm run publish
 ```
+
+## Resources
+
+- https://developers.cloudflare.com/workers/examples/
+- https://www.youtube.com/watch?v=WFlDSL7Nrzw
+- https://developers.cloudflare.com/workers/wrangler/
+- https://github.com/kwhitley/itty-router
+- https://developers.cloudflare.com/workers/runtime-apis/kv/
