@@ -42,7 +42,11 @@ Here `LINKS` is the name of my KV.
 wrangler kv:namespace create LINKS
 ```
 
-Cloudflare workers require us to have a preview KV for development and a separate KV for deployment to ensure we are not modifying production data while testing.
+Cloudflare workers requires us to have a preview KV for development and a separate KV for deployment to ensure we are not modifying production data while development.
+
+If we go the KV section of cloudflare workers we can see 2 different KV's with the format `<project-name>-<KV-Namespace>` and `<project-name>-<KV-Namespace>_preview`. In my case its `wranger-tutorial-LINKS` and `wrangler-tutorial-LINKS_preview`.
+
+The project name comes from the `name` section in `wrangler.toml` file.
 
 ## Running the application
 
