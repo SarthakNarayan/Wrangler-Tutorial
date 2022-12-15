@@ -1,0 +1,8 @@
+name = "wrangler-tutorial"
+main = "src/index.js"
+compatibility_date = "2022-12-15"
+
+[[kv_namespaces]]
+id = "2decd94c680a48d7849ce6144c45ff65"
+binding = "LINKS"
+preview_id = "ba52e539c2614f74bb96bd757cf7d6c6"
