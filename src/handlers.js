@@ -14,7 +14,7 @@ export default class Handlers {
       );
     }
     let key = Object.keys(keyValue).reduce((key, v) =>
-      keyValue[v] < keyValue[key] ? v : key
+      parseInt(keyValue[v]) < parseInt(keyValue[key]) ? v : key
     );
     const count = parseInt(keyValue[key]);
     await KV.put(key, (count + 1).toString());
